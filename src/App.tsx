@@ -1,9 +1,13 @@
 import React from "react";
 import "./App.css";
-import { StyledButton } from "./components/Presentational/atoms/Button/Button.styles";
+import Home from "./components/Containers/pages/Home";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Home />
+    </div>
+  );
 }
 
 export default App;

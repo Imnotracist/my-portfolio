@@ -5,7 +5,7 @@ import NavigationMenu from "../NavigationMenu/NavigationMenu";
 const HeaderContent = () => {
   return (
     <HeaderContentContainer>
-      <Logo />
+      <Logo src="/assets/logo.png" alt="logo" />
       <NavigationMenu />
     </HeaderContentContainer>
   );

@@ -1,2 +1,5 @@
 import { StyledLogo } from "./Logo.styles";
-export default StyledLogo;
+const Logo = ({ src, alt }: { src: string; alt: string }) => {
+  return <StyledLogo src={src} alt={alt} />;
+};
+export default Logo;
