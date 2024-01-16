@@ -6,5 +6,5 @@ export const HeaderContentContainer = styled.div`
   align-items: center;
   align-content: center;
   justify-content: center;
-  /* justify-content: space-evenly; */
+  /* background-color: #191919; */
 `;
