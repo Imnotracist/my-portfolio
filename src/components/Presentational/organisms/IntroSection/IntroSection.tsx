@@ -1,4 +1,6 @@
+import IntroSectionContent from "../../molecules/IntroSectionContent/IntroSectionContent";
+
 const IntroSection = () => {
-  return <div></div>;
+  return <IntroSectionContent></IntroSectionContent>;
 };
 export default IntroSection;
