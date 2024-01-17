@@ -1,11 +1,11 @@
 import { HeaderContentContainer } from "./HeaderContent.styles";
-import Logo from "../../atoms/Logo/Logo";
 import NavigationMenu from "../NavigationMenu/NavigationMenu";
+import { StyledTitle } from "../../atoms/Title/Title.styles";
 
 const HeaderContent = () => {
   return (
     <HeaderContentContainer>
-      <Logo src="/assets/images/logo.png" alt="logo" />
+      <StyledTitle>HNGB1112</StyledTitle>
       <NavigationMenu />
     </HeaderContentContainer>
   );

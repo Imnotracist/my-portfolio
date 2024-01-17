@@ -9,7 +9,7 @@ export const StyledButton = styled.button`
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  font-family: Cartograph CF;
+  font: inherit;
 `;
 
 export const BlackButton = styled(StyledButton)`
@@ -23,7 +23,7 @@ export const BlackButton = styled(StyledButton)`
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 10px 0px 10px 0px;
 
   & > span {
     cursor: pointer;

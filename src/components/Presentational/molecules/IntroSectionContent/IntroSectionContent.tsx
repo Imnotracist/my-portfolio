@@ -19,7 +19,6 @@ const IntroSectionContent = () => {
           <span>More about me</span>
         </BlackButton>
       </div>
-      <div className="content-right"></div>
     </IntroSectionContentContainer>
   );
 };
