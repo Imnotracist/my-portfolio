@@ -6,20 +6,25 @@ import Home from "./components/Containers/pages/Home";
 import About from "./components/Containers/pages/About";
 import Projects from "./components/Containers/pages/Projects";
 import Contact from "./components/Containers/pages/Contact";
+import AppLayout from "./components/Containers/templates/AppLayout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <GlobalStyles />
       <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <BrowserRouter>
+          <AppLayout>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </AppLayout>
+        </BrowserRouter>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 

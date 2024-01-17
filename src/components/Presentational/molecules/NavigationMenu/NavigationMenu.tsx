@@ -7,16 +7,16 @@ const NavigationMenu = () => {
     <NavigationMenuContainer>
       <StyledList>
         <li>
-          <StyledLink href="#">Home</StyledLink>
+          <StyledLink to="/">Home</StyledLink>
         </li>
         <li>
-          <StyledLink href="#">About Me</StyledLink>
+          <StyledLink to="/about">About Me</StyledLink>
         </li>
         <li>
-          <StyledLink href="#">Projects</StyledLink>
+          <StyledLink to="/projects">Projects</StyledLink>
         </li>
         <li>
-          <StyledLink href="#">Contact</StyledLink>
+          <StyledLink to="/contact">Contact</StyledLink>
         </li>
       </StyledList>
     </NavigationMenuContainer>

@@ -1,6 +1,6 @@
 import AppLayout from "../templates/AppLayout";
 
 const About = () => {
-  return <AppLayout></AppLayout>;
+  return <h1>About</h1>;
 };
 export default About;

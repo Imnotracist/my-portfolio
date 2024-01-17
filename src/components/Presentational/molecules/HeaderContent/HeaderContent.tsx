@@ -5,7 +5,9 @@ import { StyledTitle } from "../../atoms/Title/Title.styles";
 const HeaderContent = () => {
   return (
     <HeaderContentContainer>
-      <StyledTitle>HNGB1112</StyledTitle>
+      <StyledTitle>
+        <span>HNGB1112</span>
+      </StyledTitle>
       <NavigationMenu />
     </HeaderContentContainer>
   );

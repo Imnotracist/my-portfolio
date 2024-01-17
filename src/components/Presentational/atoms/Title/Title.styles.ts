@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const StyledTitle = styled.span`
+export const StyledTitle = styled.div`
   display: block;
   background-color: #fff;
   padding: 5px 5px;
