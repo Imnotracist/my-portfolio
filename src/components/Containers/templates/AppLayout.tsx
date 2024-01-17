@@ -1,11 +1,12 @@
 import Header from "../../Presentational/organisms/Header/Header";
-import IntroSection from "../../Presentational/organisms/IntroSection/IntroSection";
-import Intro from "../../Presentational/organisms/IntroSection/IntroSection";
-const AppLayout = () => {
+import Footer from "../../Presentational/organisms/Footer/Footer";
+
+const AppLayout = ({ children }: any) => {
   return (
     <>
       <Header />
-      <IntroSection />
+      {children}
+      <Footer />
     </>
   );
 };

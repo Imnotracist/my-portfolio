@@ -7,7 +7,8 @@ const IntroSectionContent = () => {
       <div className="content-left">
         <h1>Hello, my name is Bao</h1>
         <h3>
-          I'm an coding enthusiast, and I enjoy bulding website and algorithms.
+          I'm an coding enthusiast, and I enjoy bulding website and learning
+          algorithms.
         </h3>
         <p>
           I am currently a 3rd year uni student. I love to try new thing.

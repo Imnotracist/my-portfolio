@@ -1,6 +1,11 @@
 import AppLayout from "../templates/AppLayout";
+import IntroSection from "../../Presentational/organisms/IntroSection/IntroSection";
 
 const Home = () => {
-  return <AppLayout></AppLayout>;
+  return (
+    <AppLayout>
+      <IntroSection></IntroSection>
+    </AppLayout>
+  );
 };
 export default Home;

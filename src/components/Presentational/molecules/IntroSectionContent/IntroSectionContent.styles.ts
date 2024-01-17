@@ -4,6 +4,7 @@ export const IntroSectionContentContainer = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 120px;
+  margin-bottom: 100px;
   margin-left: 70px;
   margin-right: 70px;
 
