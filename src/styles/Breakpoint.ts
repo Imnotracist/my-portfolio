@@ -9,7 +9,8 @@ interface Size {
 
 const size: Size = {
   xs: "400px", // for small screen mobile
-  sm: "600px", // for mobile screen
+  sm: "768px", // for mobile screen
+  // sm: "600px",
   md: "900px", // for tablets
   lg: "1280px", // for laptops
   xl: "1440px", // for desktop / monitors

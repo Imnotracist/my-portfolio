@@ -4,6 +4,7 @@ export const StyledList = styled.ul`
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  visibility: inherit;
   margin: 0;
   padding: 0;
   gap: 64px;

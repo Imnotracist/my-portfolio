@@ -2,9 +2,13 @@ import { NavigationMenuContainer } from "./NavigationMenu.styles";
 import StyledLink from "../../atoms/Link/Link";
 import StyledList from "../../atoms/List/List";
 
-const NavigationMenu = () => {
+type myType = {
+  isOpen: boolean;
+};
+
+const NavigationMenu = (props: myType) => {
   return (
-    <NavigationMenuContainer>
+    <NavigationMenuContainer isOpen={props.isOpen}>
       <StyledList>
         <li>
           <StyledLink to="/">Home</StyledLink>
